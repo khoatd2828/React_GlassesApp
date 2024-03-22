@@ -1,0 +1,35 @@
+.background {
+  background-image: url(../public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+}
+
+.layout {
+  top: 70%;
+  height: 30%;
+  background-color: orangered;
+  opacity: 0.25;
+}
+
+.layout p {
+  font-size: 13px;
+}
+
+.list-glasses {
+  
+  width: 100vw;
+}
+
+.layoutGlasses {
+  top: 25%;
+  left: 25%;
+  opacity: 0.6;
+  z-index: 1000;
+}
